@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/*"
+from = "/todo"
 to = "https://balmy-crib-production.up.railway.app"
 status = 200
