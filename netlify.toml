@@ -1,5 +1,5 @@
 [[redirects]]
 from = "/todo"
-to = "https://balmy-crib-production.up.railway.app/:splat"
+to = "https://balmy-crib-production.up.railway.app/todo"
 status = 200
 force=true
