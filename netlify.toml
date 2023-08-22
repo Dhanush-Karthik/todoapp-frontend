@@ -2,3 +2,4 @@
 from = "/todo"
 to = "https://balmy-crib-production.up.railway.app/:splat"
 status = 200
+force=true
