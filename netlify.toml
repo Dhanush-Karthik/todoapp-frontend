@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "index.html"
+to = "https://balmy-crib-production.up.railway.app"
 status = 200
