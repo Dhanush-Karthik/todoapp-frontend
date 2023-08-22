@@ -1,0 +1,88 @@
+.table-container{
+    background-color: rgb(38,38,44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.view-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 97%;
+    background-color: rgb(29,27,33);
+}
+
+.view-table {
+    width: 100%;
+    overflow: scroll;
+}
+.view-thead{
+    color: white;
+}
+th {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+ 
+td {
+    text-align: center;
+    height: 40px;
+    border: 1px solid black;
+}
+.no-rows{
+    height: 430px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+p{
+    margin-top: 20px;
+}
+.button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: rgb(29,27,33);
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.red{
+    color:  red;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+@media screen and (max-width: 716px) {
+    .view-table{
+        min-width: 570px;
+       
+    }
+    
+}

@@ -1,0 +1,90 @@
+.todoFormContainer {
+    transition: all 150ms ease;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    background-color: black;
+    transform: translateY(100%);
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+.show {
+    transform: translateY(0);
+}
+.form{
+    margin-left: 17%;
+}
+.todoFormHeading{
+    color: rgb(13,177,173);
+    font-size: 45px;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+.todoFormTitle{
+    color: white;
+    font-size: 35px;
+    margin: 15px 0px;
+}
+.todoFormInput{
+    height: 55px;
+    color: white;
+    width: 60vw;
+    background-color: #1b1b1b;
+    border: none;
+    border-radius: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.todoFormDropDownWrapper{
+    height: 55px;
+    width: 61vw;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+}
+.todoFormDropDown{
+    font-size: 20px;
+    padding-left: 10px;
+    height: 55px;
+    width: 59vw;
+    background-color: #1b1b1b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.todoFormButtonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+}
+.todoFormCancelButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 130px;
+    margin-top: 25px;
+    border-radius: 20px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+.todoFormButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(13,177,173);
+    border-radius: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.todoFormCancelButton:hover{
+    background-color: red;
+}
